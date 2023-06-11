@@ -41,7 +41,7 @@ publications:
 
     title: "Optics for Premonoidal Categories"
     date: 2023
-    journal: Applied Category Theory
+    conference: Applied Category Theory
     image: img/premon_optics.png
     citation: "@misc{hefford2023optics,\n
       title={Optics for Premonoidal Categories}, \n
@@ -70,7 +70,7 @@ publications:
        - name:  M. Román
     title: "The Produoidal Algebra of Process Decomposition"
     date: 2023
-    journal: Preprint
+    preprint: true
     image: img/produoidal.png
     citation: "@misc{earnshaw2023produoidal,\n
       title={The Produoidal Algebra of Process Decomposition},\n
@@ -90,7 +90,7 @@ publications:
        - name:  A. Kissinger
     title: "On the Pre- and Promonoidal Structure of Spacetime"
     date: 2022
-    journal: Applied Category Theory
+    conference: Applied Category Theory
     image: img/spacetime.png
     citation: "@misc{hefford2022pre,\n
       title={On the pre- and promonoidal structure of spacetime},\n
@@ -111,7 +111,7 @@ publications:
        - name:  C. Comfort
     title: "Coend Optics for Quantum Combs"
     date: 2022
-    journal: Applied Category Theory
+    conference: Applied Category Theory
     image: img/coend_optics.png
     citation: "@misc{hefford2022coend,\n
       title={Coend Optics for Quantum Combs},\n
@@ -162,7 +162,8 @@ publications:
        - name: S. Gogioso
     title: "CPM Categories for Galois Extensions"
     date: 2021
-    journal: Quantum Processes and Logic, EPTCS
+    conference: Quantum Physics and Logic
+    journal: EPTCS
     image: img/galois_cpm.png
     citation: "@article{Hefford_galois,\n
 	doi = {10.4204/eptcs.343.9},\n
@@ -187,7 +188,8 @@ publications:
        - name: S. Gogioso
     title: "Hyper-decoherence in Density Hypercubes"
     date: 2021
-    journal: Quantum Processes and Logic, EPTCS
+    conference: Quantum Physics and Logic
+    journal: EPTCS
     image: img/hypercubes.png
     citation: "@article{Hefford_hypercubes,\n
 	doi = {10.4204/eptcs.340.7},\n

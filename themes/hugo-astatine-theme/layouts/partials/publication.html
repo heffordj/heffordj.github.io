@@ -31,10 +31,17 @@
         </b>
         <meta itemprop="headline" content="{{ .title }}"/>
         <br>
-        {{ if .journal }}
         <div>
+        {{ if .conference }}
+        Accepted at <span itemprop="conference" itemscope itemtype="http://schema.org/Organization">
+            <i itemprop="name">{{- .conference -}}</i></span>,
+        {{ end }}
+        {{ if .journal }}
         In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
             <i itemprop="name">{{- .journal -}}</i></span>,
+        {{ end }}
+        {{ if .preprint }}
+        Preprint,
         {{ end }}
         <meta itemprop="datePublished" content="{{- .date -}}">{{- .date -}}.
         </div>
