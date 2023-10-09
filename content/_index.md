@@ -15,15 +15,15 @@ imgname:
 #     type: $IMAGE_TYPE
 # ...
 # A title (job title or "Researcher", "PhD student", etc.)
-personal_title: "DPhil Student"
+personal_title: "Postdoctoral Researcher"
 # An address (you can list multiple)
 address: 
   - 
-    name: Department of Computer Science
-    street: University of Oxford
+    name: Inria de Saclay
+    street: 91120 Palaiseau
 #    postal_code: "000000"
 #    locality: Earth
-    email: firstname.lastname@cs.ox.ac.uk
+    email: firstname.lastname@inria.fr
 #    emailImg: 
 #        dark: /img/dark_email.png
 #        light: /img/light_email.svg
@@ -210,6 +210,6 @@ publications:
 
 # Bio
 
-I am a DPhil student in the Computer Science department at the University of Oxford. My interests include category theory and the application of these methods to problems in physics, particularly quantum theory and models of spacetime.
+I am an Inria postdoctoral researcher in the Quacs group at LMF. My interests include category theory and the application of these methods to problems in physics, particularly quantum theory and models of spacetime.
 
-Prior to my DPhil I completed an MSci in Mathematics at Imperial College London and an MRes in Quantum Technologies at University College London.
+I completed my DPhil at the University of Oxford. Prior to this I did an MSci in Mathematics at Imperial College London and an MRes in Quantum Technologies at University College London.
