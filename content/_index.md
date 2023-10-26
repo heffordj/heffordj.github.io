@@ -89,8 +89,9 @@ publications:
          me: true
        - name:  A. Kissinger
     title: "On the Pre- and Promonoidal Structure of Spacetime"
-    date: 2022
-    conference: Applied Category Theory
+    date: 2023
+    conference: Applied Category Theory 2022
+    journal: EPTCS 380
     image: img/spacetime.png
     citation: "@misc{hefford2022pre,\n
       title={On the pre- and promonoidal structure of spacetime},\n
@@ -110,8 +111,9 @@ publications:
          me: true
        - name:  C. Comfort
     title: "Coend Optics for Quantum Combs"
-    date: 2022
-    conference: Applied Category Theory
+    date: 2023
+    conference: Applied Category Theory 2022
+    journal: EPTCS 380
     image: img/coend_optics.png
     citation: "@misc{hefford2022coend,\n
       title={Coend Optics for Quantum Combs},\n
@@ -162,8 +164,8 @@ publications:
        - name: S. Gogioso
     title: "CPM Categories for Galois Extensions"
     date: 2021
-    conference: Quantum Physics and Logic
-    journal: EPTCS
+    conference: Quantum Physics and Logic 2021
+    journal: EPTCS 343
     image: img/galois_cpm.png
     citation: "@article{Hefford_galois,\n
 	doi = {10.4204/eptcs.343.9},\n
@@ -188,8 +190,8 @@ publications:
        - name: S. Gogioso
     title: "Hyper-decoherence in Density Hypercubes"
     date: 2021
-    conference: Quantum Physics and Logic
-    journal: EPTCS
+    conference: Quantum Physics and Logic 2020
+    journal: EPTCS 340
     image: img/hypercubes.png
     citation: "@article{Hefford_hypercubes,\n
 	doi = {10.4204/eptcs.340.7},\n
@@ -210,6 +212,6 @@ publications:
 
 # Bio
 
-I am an Inria postdoctoral researcher in the Quacs group at LMF. My interests include category theory and the application of these methods to problems in physics, particularly quantum theory and models of spacetime.
+I am an Inria postdoctoral researcher in the [Quacs group](https://lmf.cnrs.fr/Research/Quant) at LMF. My interests include category theory and the application of these methods to problems in physics, particularly quantum theory and models of spacetime.
 
 I completed my DPhil at the University of Oxford. Prior to this I did an MSci in Mathematics at Imperial College London and an MRes in Quantum Technologies at University College London.
