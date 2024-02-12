@@ -33,7 +33,7 @@
         <br>
         <div>
         {{ if .conference }}
-        Accepted at <span itemprop="conference" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="conference" itemscope itemtype="http://schema.org/Organization">
             <i itemprop="name">{{- .conference -}}</i></span>,
         {{ end }}
         {{ if .journal }}
