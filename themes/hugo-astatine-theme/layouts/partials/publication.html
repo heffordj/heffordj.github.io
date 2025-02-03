@@ -10,6 +10,14 @@
              class="w-full"/>
     </div>
     <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
+        <b>
+            <a href="{{ .pdf }}">
+                <span itemprop="name">{{ .title }}</span>
+            </a>
+        </b>
+        <meta itemprop="headline" content="{{ .title }}"/>
+        <br>
+        With:
         {{ with $authorlist := .authors }}
             {{ range $author_index, $author_val := $authorlist }}
             {{ if $author_val.me }}
@@ -23,13 +31,6 @@
             {{ end }}
             {{ end }}
         {{ end }}
-        <br>
-        <b>
-            <a href="{{ .pdf }}">
-                <span itemprop="name">{{ .title }}</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="{{ .title }}"/>
         <br>
         <div>
         {{ if .conference }}
