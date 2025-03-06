@@ -33,6 +33,14 @@ address:
 # List your publications. The required fields are pdf, title, and image 
 # (which should be the image path). The other fields are optional.
 publications:
+  -
+    authors:
+       - name: M. Wilson
+    title: "A BV-Category of Spacetime Interventions"
+    date: 2025
+    conference: Preprint
+    image: img/BV.png
+    pdf: https://arxiv.org/abs/2502.19022
   - 
     authors:
         #- name: J. Hefford 
